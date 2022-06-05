@@ -21,22 +21,22 @@
        <string>Считать файл</string>
       </property>
       <property name="buddy">
-       <cstring>lineEdit</cstring>
+       <cstring>lineEditRead</cstring>
       </property>
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit"/>
+     <widget class="QLineEdit" name="lineEditRead"/>
     </item>
     <item row="0" column="2">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="dialogReadButton">
       <property name="text">
        <string>Выбрать</string>
       </property>
      </widget>
     </item>
     <item row="0" column="3">
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="readButton">
       <property name="text">
        <string>Считать</string>
       </property>
@@ -48,24 +48,24 @@
        <string>Записать файл</string>
       </property>
       <property name="buddy">
-       <cstring>lineEdit_2</cstring>
+       <cstring>lineEditWrite</cstring>
       </property>
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="lineEditWrite"/>
     </item>
     <item row="1" column="2">
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="dialogButton">
       <property name="text">
        <string>Выбрать</string>
       </property>
      </widget>
     </item>
     <item row="1" column="3">
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="writeButton">
       <property name="text">
-       <string>Считать</string>
+       <string>Записать</string>
       </property>
      </widget>
     </item>
@@ -77,7 +77,7 @@
      </widget>
     </item>
     <item row="2" column="1" colspan="3">
-     <widget class="QLineEdit" name="lineEdit_3"/>
+     <widget class="QLineEdit" name="lineEditCB1"/>
     </item>
     <item row="3" column="0">
      <widget class="QCheckBox" name="checkBox_2">
@@ -87,7 +87,7 @@
      </widget>
     </item>
     <item row="3" column="1" colspan="3">
-     <widget class="QLineEdit" name="lineEdit_4"/>
+     <widget class="QLineEdit" name="lineEditCB2"/>
     </item>
     <item row="4" column="0">
      <widget class="QCheckBox" name="checkBox_3">
@@ -97,7 +97,7 @@
      </widget>
     </item>
     <item row="4" column="1" colspan="3">
-     <widget class="QLineEdit" name="lineEdit_5"/>
+     <widget class="QLineEdit" name="lineEditCB3"/>
     </item>
    </layout>
   </widget>
