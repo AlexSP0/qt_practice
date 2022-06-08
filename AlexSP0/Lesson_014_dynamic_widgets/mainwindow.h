@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QSettings>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,14 +15,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-private slots:
-   void saveLine();
-   void loadLine();
-
 private:
     Ui::MainWindow *ui;
-    QSettings *fileSettings;
-    const QString company = "Example software LTD";
-    const QString productName = "lesson_003";
 };
 #endif // MAINWINDOW_H
